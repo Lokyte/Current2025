@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timestamp Microservice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Timestamp Microservice</h1>
+    <p>Example Usage:</p>
+    <ul>
+        <li><a href="/api/2023-10-01">/api/2023-10-01</a></li>
+        <li><a href="/api/1696118400000">/api/1696118400000</a></li>
+    </ul>
+    <p>Example Output:</p>
+    <code>
+        {
+            "unix": 1696118400000,
+            "utc": "Sun, 01 Oct 2023 00:00:00 GMT"
+        }
+    </code>
+</body>
+</html>
