@@ -1,3 +1,4 @@
+// filepath: /e:/ProjectAlpha/HealthNest/backend/src/app.js
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
