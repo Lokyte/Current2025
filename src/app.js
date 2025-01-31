@@ -12,6 +12,8 @@ app.use(express.json());
 app.use('/api', healthRoutes);
 
 const uri = process.env.MONGODB_URI; // Use environment variable
+console.log('MongoDB URI:', uri); // Debugging line
+
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
